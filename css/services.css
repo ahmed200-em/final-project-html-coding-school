@@ -5,80 +5,73 @@
   text-decoration: none;
   list-style: none;
 }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .logo {
   color: blueviolet;
   margin: 7px;
+  font-size: 1.8rem;
 }
 .navigation {
   display: flex;
   flex-direction: row;
   margin: 10px;
   justify-content: space-evenly;
+  align-items: center;
 }
 .list {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 25px;
   margin: 10px;
 }
 .a1 {
   color: rgb(65, 64, 64);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.a1:hover {
+  color: rgb(93, 3, 177);
 }
 .a2 {
   color: white;
-  border: 2px;
   background-color: rgb(93, 3, 177);
-  padding: 7px;
+  padding: 10px 20px;
   border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s;
 }
-.div1 {
-  display: flex;
-  text-align: center;
-  gap: 15px;
-  justify-content: center;
-  flex-direction: column;
-}
-.a3 {
-  color: white;
-  padding: 8px 20px;
-  background-color: rgb(93, 3, 177);
-  border-radius: 5px;
-}
-.p-a3 {
-  margin-top: 10px;
-}
-.img1 {
-  margin-top: 50px;
-}
-.prandimg {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 30px;
+.a2:hover {
+  background-color: rgb(73, 2, 147);
 }
 .section2 {
-  background-color: gainsboro;
-  height: 680px;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+  min-height: 600px;
+  padding-bottom: 50px;
 }
 .div2 {
   display: flex;
   text-align: center;
   flex-direction: column;
-  padding: 30px;
-  padding-top: 70px;
-  gap: 10px;
+  padding: 40px;
+  padding-top: 80px;
+  gap: 15px;
+}
+.div2 h1 {
+  color: rgb(93, 3, 177);
+  font-size: 2.5rem;
 }
 .p1 {
   color: rgb(59, 59, 59);
-  font-size: large;
+  font-size: 1.2rem;
 }
 .card-div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 60px;
+  gap: 40px;
   padding: 50px;
 }
 .threecards1 {
@@ -86,8 +79,8 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 85%;
-  /* justify-content: center;
-    align-items: center; */
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .carddiv {
   display: flex;
@@ -95,168 +88,135 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 280px;
+}
+.carddiv:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(93, 3, 177, 0.2);
 }
 .icons {
-  border: 1px solid;
   border-radius: 100%;
-  height: 50px;
-  width: 50px;
-
-  align-items: center;
+  height: 70px;
+  width: 70px;
   display: flex;
   justify-content: center;
-  background-color: rgb(194, 189, 189);
+  align-items: center;
+  background: linear-gradient(135deg, rgb(93, 3, 177) 0%, rgb(133, 72, 255) 100%);
+  color: white;
+  box-shadow: 0 4px 10px rgba(93, 3, 177, 0.3);
+}
+.carddiv h3 {
+  color: rgb(93, 3, 177);
+  font-size: 1.3rem;
+}
+.section3 {
+  padding: 80px 20px;
+  background-color: white;
 }
 .div3 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 10px;
-  margin: 50px;
-  padding-top: 50px;
-}
-.div4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  margin-top: 100px;
-}
-.div5 {
-  display: flex;
-  /* text-align: center; */
-  flex-direction: column;
-  padding: 30px;
-  padding-top: 70px;
-  gap: 10px;
-  margin-bottom: 30px;
-}
-.shadow {
-  box-shadow: 6px 6px 16px 6px grey;
-}
-.section3 {
-  height: 1000px;
-}
-.section4 {
-  background-color: rgb(133, 72, 255);
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   gap: 15px;
-  
+  margin-bottom: 50px;
+}
+.div3 h1 {
+  color: rgb(93, 3, 177);
+  font-size: 2.2rem;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 50px auto;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+th {
+  background-color: rgb(93, 3, 177);
+  color: white;
+  padding: 15px;
+  font-size: 1.1rem;
+}
+td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: rgb(59, 59, 59);
+}
+tr:hover {
+  background-color: #f5f0ff;
+}
+footer {
+  background-color: gainsboro;
+}
+form {
+  background: linear-gradient(135deg, rgb(93, 3, 177) 0%, rgb(133, 72, 255) 100%);
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+form p:first-of-type {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
 }
 .h1 {
   color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
-.div6 {
+form input {
+  width: 350px;
+  height: 45px;
+  margin: 15px 0;
+  border: none;
+  padding: 0 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+form button {
+  width: 350px;
+  height: 45px;
+  background-color: white;
+  color: rgb(93, 3, 177);
+  border-radius: 5px;
+  margin: 15px 0;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+form button:hover {
+  transform: scale(1.05);
+}
+form .a1 {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.85rem;
+}
+.div11 {
+  background-color: gainsboro;
   display: flex;
   flex-direction: row;
-  text-align: center;
   align-items: center;
-  justify-content: center;
-  gap: 60px;
+  justify-content: space-evenly;
+  gap: 50px;
+  padding: 30px;
+  flex-wrap: wrap;
 }
-.h2{
-    font-size: 70px;    
-    color: white;
-}
-.p2{
-    color: white;
-}
-.div7{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-.a4{
-    color: white;
-    text-decoration: underline;
-}
-.p3{
-    font-size: 10px;
-    color: white;
-}
-.div8 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 10px;
-  margin: 30px;
-}
-.section5{
-    display: flex;
-    flex-direction: row;
-    height: 400px;
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
-}
-.div9{
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    height: 100px;
-}
-.i{
-    padding-right: 15px;
-    padding-top: 9px;
-}
-.div10{
-    gap: 8px;
-    display: flex;
-    flex-direction: column;
-}
-form{
-    background-color: gainsboro;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-.div11{
-    background-color: gainsboro;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
-    gap: 100px;
-    padding-bottom: 20px;
-    margin-left: 80px;
-
-}
-input{
-    width: 300px;
-    height: 35px;
-    margin-top: 20px;
-    border: 1.5px solid rgb(93, 3, 177);
-    padding-left: 10px;
-    border-radius: 4px;
-}
-button{
-    width: 300px;
-    height: 35px;
-    background-color: rgb(93, 3, 177);
-    border-radius: 4px;
-    margin-top: 10px;
-    border: none;
-    margin-bottom: 10px;
-}
-.sign{
-    color: white;
-    font-size: larger;
-    
-}
-.copy{
-    padding-left: 50px;
-}
-footer{
-    background-color: gainsboro;
+.copy {
+  color: rgb(59, 59, 59);
 }
