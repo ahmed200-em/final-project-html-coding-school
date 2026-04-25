@@ -4,63 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a7999296b9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/blog.css">
+    <title>Blog - Final-project</title>
 </head>
 <body>
     <!-- this is the header -->
-    <header>
-        <h1>This is our blogs</h1>
-        <!--! this is the navigation bar -->
+    <header class="navigation">
+
+        <!-- todo this is the nav bar -->
+        <h3 class="logo">array.</h3>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="blog.html">blogs</a></li>
+            <ul class="list">
+                <li><a class="a1" href="services.html">Products</a></li>
+                <li><a class="a1" href="blog.html">Blogs</a></li>
+                <li><a class="a1" href="services.html">Services</a></li>
+                <li><a class="a1" href="">Contact</a></li>
+                <li><a class="a2" href="signup.html">Sign Up</a></li>
             </ul>
         </nav>
+
     </header>
     <!--! this is the main -->
     <main>
         <!-- todo: the hero section -->
-        <section align="middle">
-            <h2>Our features</h2>
-            <div>
-                <h3>Learning</h3>
-                <p>Practice every day.</p>
+        <section class="section2">
+            <div class="div2">
+                <h1>This is our blogs</h1>
+                <p class="p1">Read our latest articles and features</p>
             </div>
-            <div>
-                <h3>Real Projects</h3>
-                <p>Build real applications</p>
-            </div>
-            <div>
-                <h3>Teammates</h3>
-                <p>Learn with Team</p>
+            <div class="card-div">
+                <div class="threecards1">
+                    <div class="carddiv">
+                        <p class="icons"><i class="fa-solid fa-book-open fa-xl"></i></p>
+                        <h3>Learning</h3>
+                        <p class="p1">Practice every day<br> and improve your skills</p>
+                    </div>
+                    <div class="carddiv">
+                        <p class="icons"><i class="fa-solid fa-laptop-code fa-xl"></i></p>
+                        <h3>Real Projects</h3>
+                        <p class="p1">Build real applications<br> with hands-on experience</p>
+                    </div>
+                    <div class="carddiv">
+                        <p class="icons"><i class="fa-solid fa-users fa-xl"></i></p>
+                        <h3>Teammates</h3>
+                        <p class="p1">Learn with Team<br> and collaborate together</p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- todo : the second section -->
-        <section align="middle">
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUVHWvgqs2z1qibP1ufFKb5ICyp9F9JVoybw&s"
-                alt="coding-picture">
+        <section class="section3">
+            <div class="div4">
+                <div><img class="shadow" width="400px" height="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUVHWvgqs2z1qibP1ufFKb5ICyp9F9JVoybw&s"
+                alt="coding-picture"></div>
+                <div class="div5">
+                    <h3>Are you Interesting?</h3>
+                    <p class="p1">Take your first step and Become a web developer with real projects.</p>
+                    <a class="a1" href="">Know more</a>
+                </div>
             </div>
-            <h2>Are u Intresting</h2>
-            <p>Take your first step and Become a web developer with real projects.</p>
         </section>
         <!-- todo; the third section -->
-        <section>
-            <h2 align="middle">Whatch Our Program</h2>
-            <div align="middle">
-                    <iframe width="560" height="360" src="https://www.youtube.com/embed/nCZbZyyuHRg?si=Uq6uakauKhO9Dk9r"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <section class="section4">
+            <div class="div8">
+                <h2 class="h1">Watch Our Program</h2>
+                <p class="h1">Learn from our comprehensive video tutorials</p>
+            </div>
+            <div>
+                <iframe width="560" height="360" src="https://www.youtube.com/embed/nCZbZyyuHRg?si=Uq6uakauKhO9Dk9r"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
     </main>
     <!--! this is the footer -->
-    <footer align="middle">
-        <P>&copy 2026 My website</P>
-        <p><a href="Github.com">Github</a></p>
+    <footer>
+        <form>
+            <p>GRAB ARRAY FOR </p>
+            <h1 class="h1">Start now and turn you online business into a <br> profitable route.</h1>
+            <input type="text" name="" id="" placeholder="Enter Your email address">
+            <button><a class="sign" href="">Sign Up Now</a></button>
+            <p class="a1">14-day free trial and no credit card required.</p>
+        </form>
+        <div class="div11">
+            
+            <h3 class="logo">array.</h3>
+            <p class="copy">&copy IOThemes 2028 Rights Reserved</p>
+            <div>
+                <p class="p1"><a class="a1" href="">Facebook</a> &nbsp; <a class="a1" href="">Twitter</a> &nbsp; <a class="a1" href="">Linkdln</a></p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

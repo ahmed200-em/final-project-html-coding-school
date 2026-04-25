@@ -4,58 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a7999296b9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/services.css">
+    <title>Services - Final-project</title>
 </head>
 
 <body>
-    <!-- ! this the header -->
-    <header>
-        <!-- header tiltle  -->
-        <h1>Services Page</h1>
-        <p>This services structure page</p>
-        <!-- navigation bar -->
+    <!-- ! this is the header -->
+    <header class="navigation">
+
+        <!-- todo this is the nav bar -->
+        <h3 class="logo">array.</h3>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="blog.html">Blog</a></li>
+            <ul class="list">
+                <li><a class="a1" href="services.html">Products</a></li>
+                <li><a class="a1" href="blog.html">Blogs</a></li>
+                <li><a class="a1" href="services.html">Services</a></li>
+                <li><a class="a1" href="">Contact</a></li>
+                <li><a class="a2" href="signup.html">Sign Up</a></li>
             </ul>
         </nav>
+
     </header>
     <main>
         <!-- todo : this is the hero section -->
-        <section>
-            <h2>This is our list services</h2>
+        <section class="section2">
+            <div class="div2">
+                <h1>Services Page</h1>
+                <p class="p1">This services structure page</p>
+            </div>
+            <h2 style="text-align: center; color: rgb(59, 59, 59); margin-top: 30px;">This is our list services</h2>
             <!-- list of services -->
-            <ul>
-                <li>Web Design</li>
-                <li>Development</li>
-                <li>Suppoer</li>
-            </ul>
-        </section>
-        <!-- todo the second section -->
-        <section>
-            <!-- the first card -->
-            <div>
-                <h2>Web Design</h2>
-                <p>We create Websites</p>
-            </div>
-            <!-- the second card -->
-            <div>
-                <h2>Development</h2>
-                <p>We build application</p>
-            </div>
-            <!-- the third card -->
-            <div>
-                <h2>Support</h2>
-                <p>We help clients to fix there problems</p>
+            <div class="card-div">
+                <div class="threecards1">
+                    <div class="carddiv">
+                        <p class="icons"><i class="fa-solid fa-palette fa-xl"></i></p>
+                        <h3>Web Design</h3>
+                        <p class="p1">We create stunning<br> websites for your business</p>
+                    </div>
+                    <div class="carddiv">
+                        <p class="icons"><i class="fa-solid fa-code fa-xl"></i></p>
+                        <h3>Development</h3>
+                        <p class="p1">We build robust<br> applications for you</p>
+                    </div>
+                    <div class="carddiv">
+                        <p class="icons"><i class="fa-solid fa-headset fa-xl"></i></p>
+                        <h3>Support</h3>
+                        <p class="p1">We help clients fix<br> their problems</p>
+                    </div>
+                </div>
             </div>
         </section>
         <!--! the third section -->
-        <section>
-            <!-- this stuff info -->
-            <table border="1">
+        <section class="section3">
+            <div class="div3">
                 <h1>Our Equipe</h1>
+                <p class="p1">Meet our talented team of professionals</p>
+            </div>
+            <table border="1" style="margin: 50px auto; border-collapse: collapse; width: 80%;">
                 <tr>
                     <th>Name</th>
                     <th>Age</th>
@@ -74,17 +80,32 @@
                     <td>3years</td>
                     <td>Backend</td>
                 </tr>
+                <tr>
                     <td>Akram</td>
                     <td>26</td>
                     <td>9years</td>
                     <td>Security</td>
+                </tr>
             </table>
         </section>
     </main>
-    <!-- ! this is our footer -->
-    <footer align="middle">
-        <p>&copy; 2026 MY WEBSITE</p>
-        <P><a href="github.com">Github</a></P>
+    <!-- ! this is the footer -->
+    <footer>
+        <form>
+            <p>GRAB ARRAY FOR </p>
+            <h1 class="h1">Start now and turn you online business into a <br> profitable route.</h1>
+            <input type="text" name="" id="" placeholder="Enter Your email address">
+            <button><a class="sign" href="">Sign Up Now</a></button>
+            <p class="a1">14-day free trial and no credit card required.</p>
+        </form>
+        <div class="div11">
+            
+            <h3 class="logo">array.</h3>
+            <p class="copy">&copy IOThemes 2028 Rights Reserved</p>
+            <div>
+                <p class="p1"><a class="a1" href="">Facebook</a> &nbsp; <a class="a1" href="">Twitter</a> &nbsp; <a class="a1" href="">Linkdln</a></p>
+            </div>
+        </div>
     </footer>
 </body>
 
