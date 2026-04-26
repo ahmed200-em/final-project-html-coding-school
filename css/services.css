@@ -158,7 +158,6 @@ footer {
   background-color: gainsboro;
 }
 form {
-  background: linear-gradient(135deg, rgb(93, 3, 177) 0%, rgb(133, 72, 255) 100%);
   min-height: 350px;
   display: flex;
   justify-content: center;
@@ -168,21 +167,21 @@ form {
   padding: 40px;
 }
 form p:first-of-type {
-  color: rgba(255,255,255,0.8);
+  color: grey;
   font-size: 0.9rem;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
 .h1 {
-  color: white;
+  color: black;
   font-size: 2rem;
   margin-bottom: 20px;
 }
-form input {
+form .input {
   width: 350px;
   height: 45px;
-  margin: 15px 0;
-  border: none;
+  margin: 10px 0;
+  border: 2px solid rgb(93, 3, 177);
   padding: 0 20px;
   border-radius: 5px;
   font-size: 1rem;
@@ -190,33 +189,44 @@ form input {
 form button {
   width: 350px;
   height: 45px;
-  background-color: white;
-  color: rgb(93, 3, 177);
+  background-color: rgb(93, 3, 177);
+  color: white;
   border-radius: 5px;
-  margin: 15px 0;
+  margin: 1px 0;
   border: none;
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
   transition: transform 0.3s;
 }
+.sign {
+  color: white;
+}
 form button:hover {
   transform: scale(1.05);
 }
 form .a1 {
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 0.85rem;
 }
 .div11 {
-  background-color: gainsboro;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   gap: 50px;
   padding: 30px;
   flex-wrap: wrap;
+  margin-left: 100px;
 }
 .copy {
   color: rgb(59, 59, 59);
+}
+.a5 {
+  color: grey;
+  font-size: small;
+  margin: 10px;
+}
+.a5:hover {
+  color: rgb(73, 2, 147);
 }

@@ -17,7 +17,7 @@
         <h3 class="logo">array.</h3>
         <nav>
             <ul class="list">
-                <li><a class="a1" href="services.html">Products</a></li>
+                <li><a class="a1" href="index.html">Home</a></li>
                 <li><a class="a1" href="blog.html">Blogs</a></li>
                 <li><a class="a1" href="services.html">Services</a></li>
                 <li><a class="a1" href="">Contact</a></li>
@@ -29,7 +29,7 @@
     <!--! this is the main -->
     <main>
         <!-- todo the hero section -->
-        <section class="section2">
+        <section class="section">
             <div class="div2">
                 <h1>Sign Up page</h1>
                 <p class="p1">Create your account to get started</p>
@@ -39,43 +39,49 @@
                 <fieldset>
                     <legend><b>Registration Info</b></legend>
                     <br>
-                    <label for="name">Name :</label>
-                    <input type="text" id="name"><br><br>
-                    <label for="email">Email :</label>
-                    <input type="email" id="email"><br><br>
-                    <label for="confirm_password">Confirm Password :</label>
-                    <input type="password" id="confirm_password"><br><br>
-                    <label for="password">Password :</label>
-                    <input type="password" id="password"><br><br>
-                    <label for="age">Age :</label>
-                    <input type="number" id="age"><br><br>
-                    <label for="birth">Date of Birth :</label>
-                    <input type="date" id="birth"><br><br>
-                    <label for="gender">Select your gender :</label>
-                    <input type="radio" name="gender" id="male">
-                    <label for="male">Male</label>
-                    <input type="radio" name="gender" id="female">
-                    <label for="female">Female</label>
-                    <input type="radio" name="gender" id="other">
-                    <label for="other">Other</label>
-                    <br><br>
-                    <label for="skills">Select Your Skills :</label>
-                    <input type="checkbox" name="html" id="html">
-                    <label for="html">HTML</label>
-                    <input type="checkbox" name="css" id="css">
-                    <label for="css">CSS</label>
-                    <input type="checkbox" name="js" id="js">
-                    <label for="js">JS</label><br><br>
-                    <label for="from">Where are you from :</label>
+                    <label for="name">Name :</label><br>
+                    <input type="text" id="name"><br>
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email"><br>
+                    <label for="confirm_password">Password :</label><br>
+                    <input type="password" id="confirm_password"><br>
+                    <label for="password">Confirm Password :</label><br>
+                    <input type="password" id="password"><br>
+                    <label for="age">Age :</label><br>
+                    <input type="number" id="age"><br>
+                    <label for="birth">Date of Birth :</label><br>
+                    <input type="date" id="birth"><br>
+                    <label for="gender">Select your gender :</label><br>
+                    <div class="genders">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>&emsp;
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>&emsp;
+                        <input type="radio" name="gender" id="other">
+                        <label for="other">Other</label>
+                    </div>
+                    <br>
+                    <label for="skills">Select Your Skills :</label><br>
+                    <div class="skills">
+                        <input type="checkbox" name="html" id="html">
+                        <label for="html">HTML</label>&emsp;
+                        <input type="checkbox" name="css" id="css">
+                        <label for="css">CSS</label>&emsp;
+                        <input type="checkbox" name="js" id="js">
+                        <label for="js">JS</label>
+                    </div>
+                    <label for="from">Where are you from :</label><br>
                     <select id="from">
                         <option value="">Morocco</option>
                         <option value="">USA</option>
                         <option value="">CANADA</option>
                     </select>
-                    <br><br>
-                    <label for="image">Upload Your Picture :</label>
-                    <input type="file" id="image">
-                    <br><br>
+                    <br>
+                    <label for="image">Upload Your Picture :</label><br>
+                    <div class="file">
+                        <input type="file" id="image">
+                    </div>
+                    <br>
                     <button type="submit">Sign In</button>
                     <button type="reset">Login</button>
                 </fieldset>
@@ -92,17 +98,18 @@
     <footer>
         <form>
             <p>GRAB ARRAY FOR </p>
-            <h1 class="h1">Start now and turn you online business into a <br> profitable route.</h1>
-            <input type="text" name="" id="" placeholder="Enter Your email address">
+            <h1>Start now and trun you online business into a <br> profitable route.</h1>
+            <input class="input" type="email" name="" id="" placeholder="Enter Your email address">
             <button><a class="sign" href="">Sign Up Now</a></button>
-            <p class="a1">14-day free trial and no credit card required.</p>
+            <p class="a5">14-day free trial and no credit card required.</p>
         </form>
         <div class="div11">
-            
+
             <h3 class="logo">array.</h3>
             <p class="copy">&copy IOThemes 2028 Rights Reserved</p>
             <div>
-                <p class="p1"><a class="a1" href="">Facebook</a> &nbsp; <a class="a1" href="">Twitter</a> &nbsp; <a class="a1" href="">Linkdln</a></p>
+                <p class="p1"><a class="a1" href="">Facebook</a> &nbsp; <a class="a1" href="">Twitter</a> &nbsp; <a
+                        class="a1" href="">Linkdln</a></p>
             </div>
         </div>
     </footer>
