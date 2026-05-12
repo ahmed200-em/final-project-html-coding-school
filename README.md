@@ -40,7 +40,7 @@ The project includes multiple pages such as Home, Blog, Services, and Signup, al
 ![Services Page](./images/screen-services.png)
 
 ### 🛠️ Contact Page
-![Services Page](./images/screen-contact.png.png)
+![Services Page](./images/screen-contact.png)
 
 ### 📝 Signup Page
 ![Signup Page](./images/screen-signup.png)
